@@ -36,7 +36,7 @@ def drawScreen():
         for event in pg.event.get():
             if event.type == pg.QUIT:
                 running = False
-
+        # TODO Implement car image that is controlled by key input.
         # This will give us a dictionary where each key has a value of 1 or 0. Where
         # 1 is pressed and 0 is not pressed.
         keys = pygame.key.get_pressed()
@@ -55,13 +55,10 @@ def drawScreen():
         pygame.display.update()
     return None
 
+    # TODO Implement neural network
+    # TODO Implement NEAT algorithm
+    # TODO Implement data analytics and statistic evaluation
 
-# def uploadMedia():
-#     TRACK = "SRCIMAGE"
-#     CAR_AI = "SRCIMAGE"
-#     CAR_USER = "SRCIMAGE"
-#
-#     return TRACK, CAR_AI, CAR_USER
 
 # Function to contain any details about project.
 def main():
